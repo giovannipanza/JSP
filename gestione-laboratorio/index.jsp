@@ -10,7 +10,7 @@
 <br/>
 <a href="inserisci.jsp">Inserisci manutenzione</a>
 <br/>
-<a href="visualizza-dati">Visualizza tutte le manutenzioni richieste</a>
+<a href="visualizza.jsp">Visualizza tutte le manutenzioni richieste</a>
 
 </body>
 </html>
