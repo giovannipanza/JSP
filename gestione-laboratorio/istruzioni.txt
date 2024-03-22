@@ -1,0 +1,5 @@
+Nel progetto l'inserimento avviene tramite una SERVLET (InserisciDati.java) mentre la visualizzazione è stata implementata direttamente nel file JSP (visualizza.jsp) senza creare una servlet così potete vedere entrambi le modalità.
+
+Sia la pagina (servlet) che effettua l'inserimento che la pagina che visualizza i dati inseriti (JSP file) includono la classe java "DatabaseConnection.java" che si occupa della connessione al DB
+
+Ricordatevi di inserire le dipendenze nel file POM.xml di Maven.
