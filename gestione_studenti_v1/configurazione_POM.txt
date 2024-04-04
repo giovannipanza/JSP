@@ -1,0 +1,42 @@
+Aggiungere dipendenze a MysqlDataSource con Maven in IntelliJ IDEA
+Per aggiungere le dipendenze a MysqlDataSource con Maven in IntelliJ IDEA, segui questi passaggi:
+1. Apri il file pom.xml:
+Nel tuo progetto IntelliJ IDEA, apri il file pom.xml.
+Se non hai un file pom.xml, puoi crearlo seguendo la guida di IntelliJ IDEA: https://www.jetbrains.com/guide/java/tutorials/marco-codes-maven/pom-xml/
+
+
+2. Aggiungi le dipendenze:
+All'interno del tag <dependencies>, aggiungi le seguenti dipendenze:
+XML
+<dependency>
+    <groupId>mysql</groupId>
+    <artifactId>mysql-connector-java</artifactId>
+    <version>8.0.28</version>
+</dependency>
+
+Analisi del frammento di codice:
+<dependency>: Questo tag indica a Maven che si tratta di una definizione di dipendenza.
+groupId: Questo identifica l'organizzazione che ha sviluppato la libreria. In questo caso, è mysql, che potrebbe non essere l'organizzazione ufficiale (attualmente è com.mysql).
+artifactId: Questo è il nome della specifica libreria a cui ti riferisci. In questo caso, è mysql-connector-java, che fornisce la funzionalità per connettersi a un database MySQL dal tuo codice Java.
+version: Questo specifica la versione esatta della libreria che vuoi utilizzare. In questo caso, è 8.0.28.
+
+
+
+
+
+3. Aggiorna il progetto Maven:
+Fai clic destro sul file pom.xml e seleziona Maven > Aggiorna progetto Maven.
+In alternativa, puoi utilizzare il pulsante Aggiorna nella barra degli strumenti di Maven.
+4. Verifica le dipendenze:
+Apri la vista Struttura progetto (Ctrl+Alt+1).
+Espandi la cartella Dipendenze e verifica che le dipendenze mysql-connector-java siano presenti.
+5. Usa MysqlDataSource:
+Ora puoi utilizzare MysqlDataSource nel tuo codice Java.
+
+
+Note:
+Assicurati di utilizzare la versione corretta di mysql-connector-java per la tua versione di MySQL.
+Puoi trovare la versione più recente sul sito web di MySQL: https://dev.mysql.com/downloads/connector/j/
+Per ulteriori informazioni:
+Documentazione ufficiale di Maven: https://maven.apache.org/guides/index.html
+Guida IntelliJ IDEA per Maven: https://www.jetbrains.com/guide/java/tutorials/working-with-maven/
