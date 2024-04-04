@@ -5,9 +5,11 @@ Per capire i vari progetti presenti in questo spazio occorre avere delle conosce
 1) Come si crea un'applicazione web JSP con IntelliJ IDEA
 - https://docs.google.com/document/d/1tZ_unXYm1tlCyo93tQLTLRRFbVLqFXIu0XSeb0fY1iY/edit?usp=sharing
 
-
-2) Spiegazione di come ci si connette al DB con il metodo Class.forName
+2) Configurazione file POM.xml (MAVEN) per aggiungere le dipendenze a mysql-connector
+   https://docs.google.com/document/d/1iEsz8UPb6Zj12jQ9IaA-LtJVQOdpshd7PkyVVRGMlcA/edit?usp=sharing
+   
+4) Spiegazione di come ci si connette al DB con il metodo Class.forName
 - https://docs.google.com/document/d/1xnitssEq-VGdC0tArsKhHUiOtkHKR8U4ouz4d-QpqWk/edit?usp=sharing
 
-3) Spiegazione di come ci si connette al DB con la classe MysqlDataSource
+4) Spiegazione di come ci si connette al DB con la classe MysqlDataSource
 - https://docs.google.com/document/d/1Uua2jVnXZD4b8Ngge8YaatuR8gWKd26NGm2MfVjtBEI/edit?usp=sharing
